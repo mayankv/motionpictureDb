@@ -1,0 +1,6 @@
+{
+  "short_name": "flicksDb",
+  "name": "flicksDb",
+  "start_url": ".",
+  "display": "standalone"
+}
