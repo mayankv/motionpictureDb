@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Nav from '../components/nav';
 
-function App() {
-  return <Nav />;
+class App extends Component {
+  render() {
+    return <Nav />;
+  }
 }
 
 export default App;
