@@ -1,7 +1,11 @@
+import Nav from '../components/Nav';
+import Head from '../components/Head';
+
 const index = () => {
   return (
     <div>
-      <a href='#'>flicksDb</a>
+      <Head />
+      <Nav />
     </div>
   );
 };
