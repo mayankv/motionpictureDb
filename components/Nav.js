@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styled from 'styled-components';
 
 import MainLogo from './icons/MainLogo';
@@ -13,12 +14,18 @@ const Nav = styled.nav`
   align-items: center;
 `;
 
+const A = styled.a`
+  display: flex;
+`;
+
 const nav = () => {
   return (
     <Nav>
-      <a href='#home'>
-        <MainLogo fill='#fff' width='150px' />
-      </a>
+      <Link href='/' passHref>
+        <A>
+          <MainLogo fill='#fff' width='150px' />
+        </A>
+      </Link>
       <SearchBar />
     </Nav>
   );
