@@ -11,9 +11,9 @@ const SearchInput = styled.input`
   width: 270px;
   height: 34px;
   border-style: none;
-  border-radius: 17px 0 0 17px;
+  border-radius: 5px 0 0 5px;
   outline: none;
-  padding: 0 8px 0 15px;
+  padding: 0 0 0 10px;
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
 `;
