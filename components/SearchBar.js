@@ -18,11 +18,16 @@ const SearchInput = styled.input`
   font-size: 14px;
 `;
 
-const searchBar = () => {
+const searchBar = props => {
   return (
     <SearchBar>
       <SearchInput type='text' placeholder='Search...' />
-      <SearchIcon width='18px' height='18px' fill='#121212' />
+      <SearchIcon
+        click={props.click}
+        width='18px'
+        height='18px'
+        fill='#121212'
+      />
     </SearchBar>
   );
 };
